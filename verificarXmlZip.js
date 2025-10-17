@@ -1,8 +1,8 @@
 import AdmZip from "adm-zip";
 import { parseStringPromise } from "xml2js";
 
-const caminhoZip = "./exemplo.zip";
-const tagProcurada = "";
+const caminhoZip = "./competencias.zip";
+const tagProcurada = "evtPgtos";
 
 function buscarTag(obj, tag) {
   if (typeof obj !== "object" || obj === null) return null;
