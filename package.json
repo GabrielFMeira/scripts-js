@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "adm-zip": "^0.5.16",
-    "xml2js": "^0.6.2"
+    "xml2js": "^0.6.2",
+    "xmldom": "^0.6.0"
   },
   "name": "verificador-xml-zip",
   "version": "1.0.0",
   "main": "verificarXmlZip.js",
   "type": "module",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
